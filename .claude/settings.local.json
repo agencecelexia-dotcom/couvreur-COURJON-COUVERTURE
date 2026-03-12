@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm add -D tsx)",
+      "Bash(pnpm build)",
+      "Bash(npx tsx scripts/sync-client.ts)",
+      "Bash(git add CLIENT.md scripts/ src/app/admin/ src/app/api/admin/ src/components/admin/ src/components/layout/LayoutShell.tsx src/config/ src/lib/storage.ts storage/.gitkeep .gitignore package.json pnpm-lock.yaml src/app/layout.tsx \"src/app/realisations/[slug]/page.tsx\" src/components/layout/Footer.tsx)",
+      "Bash(git commit:*)",
+      "Bash(git push origin main)",
+      "Bash(npm run build)",
+      "Bash(git add src/app/a-propos/page.tsx src/app/blog/page.tsx src/app/contact/page.tsx src/app/layout.tsx src/app/mentions-legales/page.tsx src/app/page.tsx src/app/realisations/page.tsx src/app/robots.ts src/app/services/[slug]/page.tsx src/app/services/page.tsx src/app/sitemap.ts src/components/features/ContactForm.tsx src/components/features/GoogleMap.tsx src/components/layout/Footer.tsx src/components/layout/Logo.tsx src/components/sections/CTASection.tsx src/components/sections/FeaturedProjects.tsx src/components/sections/HeroSection.tsx src/components/sections/ServicesOverview.tsx src/components/sections/StatsSection.tsx src/components/sections/WhyChooseUs.tsx src/data/blog-posts.ts src/data/company.ts src/data/projects.ts src/data/services.ts src/data/team.ts src/data/testimonials.ts src/types/index.ts)",
+      "Bash(git add src/app/blog/[slug]/page.tsx src/app/layout.tsx src/app/not-found.tsx src/app/page.tsx src/app/realisations/[slug]/page.tsx src/components/layout/LayoutShell.tsx src/components/sections/HeroSection.tsx src/components/features/Lightbox.tsx src/components/sections/FaqSection.tsx src/components/sections/ZoneIntervention.tsx src/components/ui/CookieBanner.tsx src/components/ui/FloatingCTA.tsx src/components/ui/ReadingProgress.tsx src/components/ui/ScrollToTop.tsx src/components/ui/ShareButtons.tsx src/data/faq.ts)",
+      "Bash(git push)",
+      "Bash(xargs grep -l \"demenag\\\\|monte-meuble\\\\|garde-meuble\\\\|moving\\\\|Moving\\\\|truck\")",
+      "Bash(git add -A)",
+      "Bash(grep -n \"_template\" \"c:/Users/AA/couvreur-template/src/components/admin/\"*.tsx)"
+    ]
+  }
+}
